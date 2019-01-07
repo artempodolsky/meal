@@ -4,9 +4,17 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
-    <title>User list</title>
+    <title>Meal list</title>
+    <style>
+        .normal {color: green;}
+        .exceeded {color: red;}
+    </style>
 </head>
 <body>
-<h1>${hello}</h1>
+<section>
+    <h2><a href="index.html">Home</a></h2>
+    <h3>${hello}</h3>
+       <%--To do--%>
+</section>
 </body>
 </html>
